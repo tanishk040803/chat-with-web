@@ -1,0 +1,29 @@
+Think of LangChain like LEGO blocks for AI.
+
+Instead of building everything ourself, LangChain gives us:
+
+🧱 Chat memory block
+🧱 RAG block
+🧱 API integration block
+🧱 Tool-use block
+
+We just plug them together.
+
+
+-- Why people use LangChain?--
+
+Because building everything from scratch is difficult.
+
+LangChain gives us ready-made building blocks:
+
+✔ Chatbots
+
+✔ RAG systems (PDF bots / website bots / document QA)
+
+✔ Multi-step agents
+
+✔ Tools (Browsing, Calculator, Python interpreter, etc.)
+
+✔ Vector DB integrations (FAISS, Pinecone, Chroma)
+
+✔ Memory (so bot remembers previous messages)

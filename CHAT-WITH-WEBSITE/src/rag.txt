@@ -1,0 +1,41 @@
+RAG = Retrieval-Augmented Generation
+
+📌 Meaning:
+
+It is an AI technique where:
+	•	Retrieval → The system first fetches relevant information from a database, documents, PDFs, website, vector store, etc.
+	•	Augmented → This retrieved information is added to the prompt.
+	•	Generation → The LLM (like GPT) generates the answer using that information.
+
+🔥 Simple Example:
+
+If you upload a 50-page PDF and ask:
+
+“Explain chapter 3”
+
+A normal LLM can’t do it accurately.
+But RAG will:
+	1.	Retrieve chapter 3 from PDF
+	2.	Augment the LLM prompt with that text
+	3.	Generate a correct answer
+
+🎯 Why RAG is used in Chat-with-Website project?
+
+Because you want your chatbot to:
+	•	Understand website content
+	•	Search the website
+	•	Answer questions based on the website, not hallucinate
+
+
+
+--- what Rag does------
+
+	1.	PDFs → split into chunks
+	2.	Chunks → converted to embeddings
+	3.	Stored in vector DB (Pinecone)
+	4.	User asks a question
+	5.	Question also → embedding
+	6.	Vector DB finds matching chunks
+	7.	LLM reads those chunks
+	8.	LLM generates correct answer
+
